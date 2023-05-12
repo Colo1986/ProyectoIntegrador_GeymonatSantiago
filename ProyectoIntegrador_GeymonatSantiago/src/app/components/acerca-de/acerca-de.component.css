@@ -6,8 +6,19 @@ div{
     text-align: center;
 }
 #nombre{
-    font: bolder;
+    font-weight: bold;
     margin-top: 30%;
+}
+
+@media (max-width: 575px){
+    #fotodeperfil{
+        position: absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 3%;
+        top: 600px;
+    }
 }
 
 @media (min-width: 576px){
@@ -15,6 +26,8 @@ div{
         position: absolute;
         width: 15%;
         border-radius: 100%;
-        box-shadow: 3px 3px 3px green;
+        box-shadow: 3px 3px 3px grey;
+        left: 3%;
+        top: 600px;
     }
 }
